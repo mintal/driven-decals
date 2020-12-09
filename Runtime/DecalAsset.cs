@@ -55,6 +55,11 @@ namespace SamDriver.Decal
             }
         }
 
+        public void SetBounds(Vector4 bounds)
+        {
+            BoundsAsVector4 = bounds;
+        }
+
         void OnEnable()
         {
             UpdateDerivedValues();
